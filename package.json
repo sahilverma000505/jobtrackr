@@ -1,0 +1,29 @@
+{
+  "name": "jobtrackr-root",
+  "version": "1.0.0",
+  "description": "JobTrackr — Modern MERN Stack Job Application Tracker & Pipeline Management Platform",
+  "private": true,
+  "scripts": {
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "start": "npm start --prefix server",
+    "build:client": "npm run build --prefix client",
+    "test:api": "node test_crud_flow.js",
+    "screenshots": "node take_screenshots.js"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "express",
+    "mongodb",
+    "kanban",
+    "jobtrackr",
+    "mca-project"
+  ],
+  "author": "MCA Final Year Project Team",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^24.43.1"
+  }
+}
